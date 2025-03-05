@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de clases</title>
+    <link rel="shortcut icon" href="img/logohorario.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/horario.css">
+</head>
+<body>
+    <header>
+        <p class="horas posicion-p-header" id="hora"></p>
+        <h1 class="titulo">Horario de clases</h1>
+        <p class="fecha  posicion-p-header" id="fecha"></p>
+    </header>
+    <section class="container">
+        <section class="main">
+            <table>
+                <tr class="columna">
+                    <td class="dias">Hora</td>
+                    <td class="dias">Lunes</td>
+                    <td class="dias">Martes</td>
+                    <td class="dias">Miércoles</td>
+                    <td class="dias">Jueves</td>
+                    <td class="dias">Viernes</td>
+                    <td class="dias">Sábado</td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">6 am</td>
+                    <td class="materia">Dibujo</td>
+                    <td class="fila"></td>
+                    <td class="materia">Dibujo</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia">Dibujo</td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">7 am</td>
+                    <td class="materia">Dibujo</td>
+                    <td class="fila"></td>
+                    <td class="materia">Dibujo</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia">Dibujo</td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">8 am</td>
+                    <td class="materia">Dibujo</td>
+                    <td class="materia" id="Representación">Representación</td>
+                    <td class="materia">Dibujo</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia">Dibujo</td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">9 am</td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Representación">Representación</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Representación">Representación</td>
+                    <td class="fila"></td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">10 am</td>
+                    <td class="materia" id="Civilización">Civilización</td>
+                    <td class="fila"></td>
+                    <td class="materia"id="Civilización">Civilización</td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Representación">Representación</td>
+                    <td class="fila"></td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">11 am</td>
+                    <td class="materia"id="Civilización">Civilización</td>
+                    <td class="fila"></td>
+                    <td class="materia"id="Civilización">Civilización</td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Representación">Representación</td>
+                    <td class="fila"></td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">12 am</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">1 pm</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">2 pm</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Cátedra">Cátedra</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Álgebra">Álgebra</td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">3 pm</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Cátedra">Cátedra</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Álgebra">Álgebra</td>
+                </tr>
+
+                <tr class="columna">
+                    <td class="hora">4 pm</td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="fila"></td>
+                    <td class="materia" id="Álgebra">Álgebra</td>
+                </tr>
+
+            </table>
+
+        </section>
+        <aside>
+            <h2 class="subtitulo">Tareas pendientes</h2>
+            <ul class="lista">
+                <li class="item" id="item">Diseño<br><p class="fecha-tarea">Sab 8 de Marzo</p></li>
+            </ul>
+        </aside>
+    </section>
+    <footer class="ampliacion fixed">
+        <div class="ampliado" id="ampliado">Barra de indicaciónes generales</div>
+    </footer>
+
+    
+
+
+    <script src="js/horario.js"></script>
+</body>
+</html>
