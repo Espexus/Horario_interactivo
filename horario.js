@@ -39,9 +39,9 @@ let mes = fecha.getMonth();
 let dia = fecha.getDate();
 let semana = fecha.getDay();
 
-let hora = fecha.getHours().toString().padstar(2, '0');
-let minuto = fecha.getMinutes().toString().padstar(2, '0');
-let segundo = fecha.getSeconds().toString().padstar(2, '0');
+let hora = fecha.getHours().toString().padStar(2, '0');
+let minuto = fecha.getMinutes().toString().padStar(2, '0');
+let segundo = fecha.getSeconds().toString().padStar(2, '0');
 
 
 let diasweek = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
