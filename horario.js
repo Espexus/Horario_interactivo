@@ -1,8 +1,8 @@
-let Dibujo1 = "Tienes que hacer una infografia para el sábado, avisále a tus compañeros, una infografia es como un mapa conceptual pero poco texto, más imagenes";
-let Civilizacion1 = "sin tareas pendientes, el profesor dice que verán historia hasta la caída del imperio Romano, es fan de Miley";
-let Representacion1 = "holi";
+let Dibujo1 = "Tienes que hacer para el sábado dos infografias";
+let Civilizacion1 = "Tienes que hacer unos dibujos complicados de unas rocas";
+let Representacion1 = "Hay un libro por leer cariñooo";
 let Catedra1 = "holi";
-let Algebra1 = "holi";
+let Algebra1 = "las matemáticas del semestre wiii";
 let notas = [Dibujo1, Civilizacion1, Representacion1, Catedra1, Algebra1];
 
 
