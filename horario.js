@@ -1,9 +1,9 @@
-let Dibujo1 = "Tienes que hacer para el sábado dos infografias";
+let Diseno1 = "Tienes que hacer para el sábado dos infografias";
 let Civilizacion1 = "Tienes que hacer unos dibujos complicados de unas rocas";
 let Representacion1 = "Hay un libro por leer cariñooo";
 let Catedra1 = "holi";
 let Algebra1 = "las matemáticas del semestre wiii";
-let notas = [Dibujo1, Civilizacion1, Representacion1, Catedra1, Algebra1];
+let notas = [Diseno1, Civilizacion1, Representacion1, Catedra1, Algebra1];
 
 
 let mostrado = document.getElementById('ampliado');
@@ -17,7 +17,7 @@ materias.forEach(asignature => {
 function mostrar (event) {
     let elemento = event.target;
     let comparacion = elemento.textContent;
-    let asignaturas = ["Dibujo", "Civilización", "Representación", "Cátedra", "Álgebra"]
+    let asignaturas = ["Diseño", "Civilización", "Representación", "Cátedra", "Álgebra"]
 
     for (i=0; i < asignaturas.length; i++) {
         let comparado = asignaturas[i];
